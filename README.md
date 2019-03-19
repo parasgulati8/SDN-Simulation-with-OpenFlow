@@ -25,8 +25,11 @@ Traffic from H2 -> H1
 <h2>Fat-Tree topology in Mininet</h2>
 Installed OpenFlow switches, hosts and links in the below fashion to create a N=4 Fat-Tree topology. 
 <div style="text-align:center"><img src ="https://user-images.githubusercontent.com/43897597/54611230-f458fd80-4a2c-11e9-918a-6861eb70ac2e.PNG" width="700" height="300"/></div>
-Installed OpenFlow switches, hosts and links in the below fashion to create a N=4 Fat-Tree topology
-![n6](https://user-images.githubusercontent.com/43897597/54611239-f7ec8480-4a2c-11e9-87d9-a799df128919.PNG)
+
+
+Installed OpenFlow switches, hosts and links in the below fashion to create a N=6 Fat-Tree topology
+<div style="text-align:center"><img src ="https://user-images.githubusercontent.com/43897597/54611239-f7ec8480-4a2c-11e9-87d9-a799df128919.PNG" width="700" height="300"/></div>
+
 
 <h2>Installation</h2>
 
