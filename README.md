@@ -34,7 +34,7 @@ Installed OpenFlow switches, hosts and links in the below fashion to create a N=
 <h2>Installation</h2>
 
 The code for simple SDN topology is in "topology.py". First you need to create the topology with the python script.
-But the packets will not flow until you install the flows in the controller. The flows for this topology are in shell script "Flows.sh". You can run the run the shell script in a separate terminal to install the flows.
+But the packets will not flow until you install the flows in the switches. The flows for this topology are in shell script "Flows.sh". You can run the run the shell script in a separate terminal to install the flows.
 Then run the ping command in mininet to test the network. If the packets are dropped, that means the flows are not installed in controller and hence the switches do not know how to handle the packets.
 After successfully installing the flows, you can run the wireshark ad capture the packets flowing in the network to check the flows.
 The code for Fat Tree topologies are present in "FatTree_4.py" and "FatTree_6.py". There are no flows in FatTree networks. However you can easily install the flows using commands similar to previous topology.
